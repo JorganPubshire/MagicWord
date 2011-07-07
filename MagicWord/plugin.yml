@@ -1,0 +1,13 @@
+name: MagicWord
+main: MagicWord
+version: 1.0
+commands: 
+  Allow:
+    description: allow a player to build and destroy
+    usage: /allow <Playername>
+  Deny:
+    description: deny a player building rights
+    usage: /deny <Playername>
+  Word:
+    description: reminds you of the word or lets you change it
+    usage: /word (newWord)
