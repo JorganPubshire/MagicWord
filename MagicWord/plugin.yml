@@ -11,3 +11,6 @@ commands:
   Word:
     description: reminds you of the word or lets you change it
     usage: /word (newWord)
+  Group:
+    description: changes a player's group
+    usage: /group <Playername> <Groupname>
