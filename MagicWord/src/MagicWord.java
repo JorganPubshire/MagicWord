@@ -36,6 +36,7 @@ public class MagicWord extends JavaPlugin{
 	public void onEnable() {
 		pm = getServer().getPluginManager();
 		pm.registerEvent(Event.Type.PLAYER_COMMAND_PREPROCESS, new CommandListener(this), Priority.Normal, this);
+		pm.registerEvent(Event.Type.PLAYER_LOGIN, new LoginListener(this), Priority.High, this);
 
 		new File("plugins/MagicWord").mkdir();
 		File data = new File("plugins/MagicWord/config.yml");

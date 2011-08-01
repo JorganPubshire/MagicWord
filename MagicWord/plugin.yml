@@ -1,6 +1,6 @@
 name: MagicWord
 main: MagicWord
-version: 1.0
+version: 1.1
 commands: 
   Allow:
     description: allow a player to build and destroy
